@@ -400,6 +400,7 @@ wget -O vless "https://raw.githubusercontent.com/Endka22/gabut/main/vless.sh"
 wget -O xp-user "https://raw.githubusercontent.com/Endka22/gabut/main/xp-user.sh"
 wget -O renew-user "https://raw.githubusercontent.com/Endka22/gabut/main/renew-user.sh"
 wget -O cek-usage "https://raw.githubusercontent.com/Endka22/gabut/main/cek-usage.sh"
+wget -O del-user "https://raw.githubusercontent.com/Endka22/gabut/main/del-user.sh"
 chmod +x addtr
 chmod +x ws
 chmod +x vless
@@ -407,6 +408,7 @@ chmod +x menu
 chmod +x ss
 chmod +x renew-user
 chmod +x xp-user
+chmod +x del-user
 cd
 systemctl restart xray
 systemctl enable xray
