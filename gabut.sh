@@ -8,6 +8,14 @@ domain=$(cat /root/domain)
 # set time
 timedatectl set-timezone Asia/Jakarta
 
+#socat
+apt clean all && apt update
+apt install curl socat xz-utils wget apt-transport-https gnupg gnupg2 gnupg1 dnsutils lsb-release -y 
+apt install socat cron bash-completion ntpdate -y
+ntpdate pool.ntp.org
+apt -y install chrony
+apt install zip -y
+
 # download xray
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install -u www-data
 
@@ -25,12 +33,6 @@ chmod +x /root/.acme.sh/acme.sh
 
 
 # install nginx 
-apt clean all && apt update
-apt install curl socat xz-utils wget apt-transport-https gnupg gnupg2 gnupg1 dnsutils lsb-release -y 
-apt install socat cron bash-completion ntpdate -y
-ntpdate pool.ntp.org
-apt -y install chrony
-apt install zip -y
 apt install nginx curl pwgen openssl netcat cron -y
 systemctl enable nginx
 ufw disable
