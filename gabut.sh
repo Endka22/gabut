@@ -393,7 +393,7 @@ cat > /usr/local/etc/xray/config.json << END
 END
 cd /usr/bin
 wget -O menu "https://raw.githubusercontent.com/Endka22/gabut/main/menuku.sh"
-wget -O addtr "https://raw.githubusercontent.com/Endka22/gabut/main/addtr.sh"
+wget -O add-tr "https://raw.githubusercontent.com/Endka22/gabut/main/add-tr.sh"
 wget -O ws "https://raw.githubusercontent.com/Endka22/gabut/main/ws.sh"
 wget -O ss "https://raw.githubusercontent.com/Endka22/gabut/main/ss.sh"
 wget -O vless "https://raw.githubusercontent.com/Endka22/gabut/main/vless.sh"
