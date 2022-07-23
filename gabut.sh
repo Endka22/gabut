@@ -404,7 +404,7 @@ wget -O xp-user "https://raw.githubusercontent.com/Endka22/gabut/main/xp-user.sh
 wget -O renew-user "https://raw.githubusercontent.com/Endka22/gabut/main/renew-user.sh"
 wget -O cek-usage "https://raw.githubusercontent.com/Endka22/gabut/main/cek-usage.sh"
 wget -O del-user "https://raw.githubusercontent.com/Endka22/gabut/main/del-user.sh"
-chmod +x addtr
+chmod +x add-tr
 chmod +x ws
 chmod +x vless
 chmod +x menu
