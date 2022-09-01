@@ -22,10 +22,10 @@ echo -e ""
 read -p " Select menu : " opt
 echo -e ""
 case $opt in
-1) clear ; addws;;
-2) clear ; addvless ;;
-3) clear ; addtr;;
-4) clear ; addss ;;
+1) clear ; ws;;
+2) clear ; vless ;;
+3) clear ; add-tr;;
+4) clear ; ss ;;
 5) clear ; del-user ;;
 6) clear ; cek-user ;;
 7) clear ; renew-user ;;
